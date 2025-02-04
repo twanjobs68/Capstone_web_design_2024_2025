@@ -31,6 +31,8 @@ In completing this application, the developer used:
 HTML elements
 CSS elements and attributes
 Images and video from https://www.vecteezy.com/free-vector/music-notes
+Javascript to give some functionality to the pages
+
 Contribution Guidelines:
 To contribute to the continued success of this application, please be sure to fill out the comment section in the app. 
 
