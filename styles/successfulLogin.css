@@ -10,16 +10,7 @@ body, html{
     height:100vh;
     margin:0;
 }
-/* .imageBackground{
-    background-image: url("/images/grey-background-music-notes.png");
-    height:100vh;
-    background-position: center;
-    background-size: cover;
-        background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-    width:100vw; 
-}*/
+
 
 /* Set a single color background */
 body {
@@ -71,14 +62,6 @@ p{
     color: rgb(48, 26, 6);
     font-weight:600
 }
-
-/* .success-logout{
-    background-color:rgb(211, 175, 120);
-}
-.success-logout:hover{
-    
-    background-color:#4e2f08;
-} */
 
 button {
     margin-top: 20px;

@@ -8,8 +8,7 @@ body{
 body{
     /* background-image: radial-gradient(white,rgb(187, 146, 92),rgb(141, 82, 5),rgb(58, 23, 3)) ; */
     background-image: radial-gradient(circle, rgb(236, 236, 233), orange); 
-    /* background-color: chocolate; */
-    /* background:chocolate; */
+  
 }
 
 .barsOfMusic-message{
@@ -20,15 +19,7 @@ body{
     width: 83.15em;
     margin-left:100px;
 }
-/*initial border behind TG APP title heading*/
-/* .loginbackContainer{
-    border: 2px solid black;
-    width: 245px;
-    height: 100px;
-    border-radius:5px;
-    display:flex;
-    background-color: white;
-} */
+
 .loginHeading{
    
     border:5px dashed rgb(19, 18, 16);
@@ -44,17 +35,7 @@ body{
     position:relative;
     left:13em;
 }
-/* Login Container styling */
-/*.login-container2 {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    text-align: center;
-    width: 100%; /* full width of container on devices as Default*/
-   /* max-width: 400px; max width for large screen devices
-    
-/*}*/
+
 
 h1{
     margin-left:8.5em;;

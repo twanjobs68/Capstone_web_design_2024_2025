@@ -10,7 +10,7 @@ body {
    
    /* background-color: rgb(87, 40, 131); */
 
-    background-image: url("/Sba307Repo/images/music_notes_background_1706.jpg");
+    background-image: url("/images/music_notes_background_1706.jpg");
 
     background-position: center;
     background-size: cover;
@@ -109,36 +109,3 @@ button:hover {
    background-color: rgba(71, 43, 5, 0.788); /*Darker  on hover*/
 }
 
-/* Adjustments for smaller screen and Responsiveness */
-/*@media (max-width: 768px) {
-    body {
-        padding: 10px;
-    }
-
-    h1 {
-        font-size: 20px; /* Slightly smaller font size */
-  /*  }
-
-    label {
-        font-size: 13px; /* a little smaller font size */
-  /*  }
-
-  /*  input, button {
-        font-size: 14px; /* Adjust input and button font size */
-  /*  }
-}*/
-
-/*@media (max-width: 480px) {
-    h1 {
-        font-size: 18px; /* more smaller font size for smaller screens than previous */
-   /* }
-
-    .login-container {
-        padding: 15px; /* Reduce padding */
- /*  }
-
-    input, button {
-        font-size: 12px; /* Smaller text size */
-   /*    padding: 8px; /* Adjust padding */
-  /*  }
-}
