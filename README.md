@@ -44,4 +44,6 @@ The developer is aware of the following issues and is working to find solutions:
 2.  Video Audio on musicMenu.html page does not play
 3. Auto sizing for overflow of text in comment section on pages with comment section needs to be addressed(rNb.html, jazz.html,gospel.html)
 
+Contact Information: 
+twanjobs68@gmail.com
 GitHub Link:https://github.com/twanjobs68/TGMusicApp
