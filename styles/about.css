@@ -11,10 +11,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* font-family: Arial, sans-serif;*/
-    /* display: flex; */
-    /* justify-content: center; */
-    /* align-items: center; */
     height: 100vh;
     margin: 0;
     padding: 20px; /*researched to give smaller screens padding per device  */
