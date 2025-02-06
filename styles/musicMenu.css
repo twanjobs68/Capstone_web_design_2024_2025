@@ -23,6 +23,9 @@ h1{
     left:7.5em;
     
  }
+h4{
+  text-align:center
+}
 
  .navbar {
     overflow: hidden;
