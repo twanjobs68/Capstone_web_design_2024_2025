@@ -5,7 +5,9 @@ body, h1, form, label, input, button {
     box-sizing: border-box;
 }
 
-/* fullbackground colror*/
+
+
+/* fullbackground color*/
 body {
    
    /* background-color: rgb(87, 40, 131); */
@@ -25,6 +27,7 @@ body {
     padding: 20px; /*researched to give smaller screens padding per device  */
 }
 
+
 /*login Page Header styling - TG's Music App*/
 .loginbackContainer{
     /* border: 2px solid black; */
@@ -34,6 +37,8 @@ body {
     display:flex;
     background-color: white;
 }
+
+
 .loginHeading{
    
     border:5px dashed rgb(19, 18, 16);
@@ -48,6 +53,26 @@ body {
     /* font-weight: 500; */
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+/* Box for About This App */
+
+.aboutBox {
+    border: 5px dotted black;
+    width: 12em;
+    height: 5em;
+    border-radius: 8px;
+    background-color: #e2a11f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
 /* Login Contain styling */
 .login-container2 {
     background: white;

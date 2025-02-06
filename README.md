@@ -32,6 +32,8 @@ HTML elements
 CSS elements and attributes
 Images and video from https://www.vecteezy.com/free-vector/music-notes
 Javascript to give some functionality to the pages
+Figma design that inspired my project: https://www.figma.com/design/z5vz7zV2DcDcIvJukXtdIN/Login-Page-design-(Community)?node-id=1-2&t=PMtYuUycKtbUsUix-0
+
 
 Contribution Guidelines:
 To contribute to the continued success of this application, please be sure to fill out the comment section in the app. 
