@@ -1,31 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login Page</title>
-    <link rel="stylesheet" href="/styles/loginPageR.css">
-    <script>"/scripts/loginPage.js"</script>
-</head>
-<body>
+    <link rel="stylesheet" href="/styles/loginPageR.css" />
+    <!-- delay loading this script until all of this html is loaded by using the defer keyword -->
+    <script src="/scripts/successfulLogin.js" defer> </script>
+  </head>
+  <body>
     <div class="loginbackContainer">
-    <!--This div is for the background cover picture of the Login Screen-->
-   <!-- <div class="imageBackground"></div> -->
-    <div class="loginContainer2">
+      <!--This div is for the background cover picture of the Login Screen-->
+      <!-- <div class="imageBackground"></div> -->
+      <div class="loginContainer2">
         <strong><div class="loginHeading">TG'S MUSIC APP</div></strong>
         <h1>Login</h1>
         <form action="/Pages/succesfulLogin.html">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
 
-            <strong><button type="submit">Submit</button></strong>
+          <strong><button type="submit">Submit</button></strong>
         </form>
+      </div>
     </div>
-</div> 
-
- 
-</body>
+  </body>
 </html>
