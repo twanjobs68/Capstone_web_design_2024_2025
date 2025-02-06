@@ -3,22 +3,21 @@
 document.addEventListener("DOMContentLoaded", () => {
     
     //code for the About This App box
-
     //select element by ID
-    const aboutBox = document.getElementById("aboutAppButton");
+    // const aboutAppButton = document.getElementById("aboutAppButton");
 
     // Add event listener to handle form submission
-    aboutAppButton.addEventListener("click", () => {
-
+    // aboutAppButton.addEventListener("click", () => {
+       
     // Prevent default form submission behavior (which reloads the page)(Per MDN help)
-       // event.preventDefault();
+       //event.preventDefault();
 
      // Log a message for debugging purposes(Per MDN suggestion)
-     console.log("Navigating to aboutHTML. Redirecting...");
+    //  console.log("Navigating to aboutHTML. Redirecting...");
 
-     window.location.href = "/Pages/about.html";
+    //  window.location.href = "/Pages/about.html";
 
-    });
+    // });
 
     // Select form element by ID-This is for the Login section of the page
     const loginForm = document.getElementById("login-form");

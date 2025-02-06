@@ -14,18 +14,28 @@
     <div class="loginbackContainer">
         
       <!--This div is for the background cover picture of the Login Screen-->
-      <!-- <div class="imageBackground"></div> -->
-      <div class="loginContainer2">
+          <div class="loginContainer2">
 <strong><div class="loginHeading">TG'S MUSIC APP</strong>
 
        <!-- About Box -->
        <div id="aboutBox">
-        <button type="button" id="aboutAppButton">About This APP</button>
+       <!-- <button type="button" id="aboutAppButton"><strong>About This APP</strong></button>-->
+        <!--above button does not work with eventlistener that is in Javascript code.  Get help-->
+        <form action="/Pages/about.html">
+            <button type="submit" id="aboutAppButton"><strong>About This App</strong></button>
+        </form>
       </div>
+
+     <!-- exampe of form navigation within HTML instead of eventListener assignment
+    
+        <form action="/Pages/about.html">
+            <button type="submit" id="aboutAppButton"><strong>About This App</strong></button>
+        </form> -->
+      
     </div>
 
         <h1>Login</h1>
-        <form action="/Pages/succesfulLogin.html">
+        <form id="login-form" action="/Pages/succesfulLogin.html">
           <label for="username">Username:</label>
           <input type="text" id="username" name="username" required />
 

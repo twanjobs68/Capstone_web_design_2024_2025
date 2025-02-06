@@ -23,7 +23,8 @@ body{
 .loginHeading{
    
     border:5px dashed rgb(19, 18, 16);
-    background-color: orange;
+    
+    background-color: rgb(182, 111, 31);
     border-radius: 5px;
     display:flex;
     width: 10em;

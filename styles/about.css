@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-image: url("/images/grey-background-music-notes.png");
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* font-family: Arial, sans-serif;*/
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    height: 100vh;
+    margin: 0;
+    padding: 20px; /*researched to give smaller screens padding per device  */
+}
+    
+#logNTitle{
+   
+    border:5px dashed rgb(19, 18, 16);
+    background-color: orange;
+    border-radius: 5px;
+    display:flex;
+    width: 12em;
+    height: 2em;
+    justify-content: center; 
+    align-items:center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left: 33em;;
+}
+
+
