@@ -56,7 +56,7 @@ body {
 
 /* Box for About This App */
 
-.aboutBox {
+#aboutBox {
     border: 5px dotted black;
     width: 12em;
     height: 5em;
