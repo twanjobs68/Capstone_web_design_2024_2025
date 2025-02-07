@@ -16,7 +16,7 @@ const logOffAppButton = document.getElementById("logOffButton");
      //Log a message for debugging purposes(Per MDN suggestion)
      console.log("Navigating to Home Log In page. Redirecting...");
 
-     window.location.href = "/loginPage.html.html";
+     window.location.href = "/index.html";
 
     });
 });
