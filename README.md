@@ -1,6 +1,6 @@
 READ ME
-Project Title   TG s Music App
-Description: This application allows the user to select a genre of music from a drop downlist and be provided with several predetermined songs from that genre. 
+Project Title   TG'S Music VAULT
+Description: This application allows the user to select a genre of music from a drop downlist and be provided with several predetermined songs in a table that genre. 
 
 Table of contents/Instructions
 
@@ -33,6 +33,7 @@ CSS elements and attributes
 Images and video from https://www.vecteezy.com/free-vector/music-notes
 Javascript to give some functionality to the pages
 Figma design that inspired my project: https://www.figma.com/design/z5vz7zV2DcDcIvJukXtdIN/Login-Page-design-(Community)?node-id=1-2&t=PMtYuUycKtbUsUix-0
+GitHub Repository -to store and track the changes of files 
 
 
 Contribution Guidelines:
