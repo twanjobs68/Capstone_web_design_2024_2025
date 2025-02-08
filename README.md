@@ -1,5 +1,7 @@
 READ ME
+
 Project Title   TG'S Music VAULT
+
 Description: This application allows the user to select a genre of music from a drop downlist and be provided with several predetermined songs in a table that genre. 
 
 Table of contents/Instructions
@@ -47,4 +49,5 @@ The developer is aware of the following issues and is working to find solutions:
 
 Contact Information: 
 twanjobs68@gmail.com
+https://www.linkedin.com/in/twangrantse
 GitHub Link:https://github.com/twanjobs68/TGMusicApp
