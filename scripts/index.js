@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         //Log a message for debugging purposes(Per MDN suggestion)
         console.log("Navigating to aboutHTML. Redirecting...");
 
-        window.location.href = "/Pages/about.html";
+        window.location.href = "./Pages/about.html";
       } catch (error) {
         console.error("Error when clicking About App button:", error);
       }
@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", () => {
         );
 
         // window.location.href will send user to the url indicated.  In this
-        window.location.href = "/Pages/succesfulLogin.html";
+        window.location.href = "./Pages/succesfulLogin.html";
       } catch (error) {
         console.error("Error during form submission:", error);
       }
