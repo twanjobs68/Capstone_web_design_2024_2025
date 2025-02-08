@@ -49,5 +49,7 @@ The developer is aware of the following issues and is working to find solutions:
 
 Contact Information: 
 twanjobs68@gmail.com
+
 https://www.linkedin.com/in/twangrantse
+
 GitHub Link:https://github.com/twanjobs68/TGMusicApp
