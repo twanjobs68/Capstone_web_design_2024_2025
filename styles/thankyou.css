@@ -11,15 +11,9 @@ body{
   
 }
 
-.barsOfMusic-message{
-    display:flex;
-    justify-content:center;
-    border:2px solid rgb(12, 1, 1);
-    border-radius:5px;
-    width: 83.15em;
-    margin-left:100px;
-}
 
+
+/* Tg music vault heading container */
 .loginHeading{
    
     border:5px dashed rgb(19, 18, 16);
@@ -27,20 +21,32 @@ body{
     background-color: rgb(182, 111, 31);
     border-radius: 5px;
     display:flex;
-    width: 10em;
+    width: 15em;
     height: 2em;
     justify-content: center;
     align-items:center;
     font-size: 45px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position:relative;
-    left:13em;
+    left:15em;
+}
+
+
+.barsOfMusic-message{
+    display:flex;
+    justify-content:center;
+    border:2px solid rgb(12, 1, 1);
+    border-radius:5px;
+    width: 83.15em;
+    margin-left:18.5em;
 }
 
 
 h1{
-    margin-left:8.5em;;
+    margin-left:14.5em;;
 }
+
+
 
 .moreMusicNPic-container{
     border: 8px ridge rgba(80, 38, 4, 0.836);
@@ -51,7 +57,7 @@ h1{
     margin:5px;
     align-items:center;
     position:relative;
-    left:35em;
+    left:45em;
     
 }
 .moreMusicText{
