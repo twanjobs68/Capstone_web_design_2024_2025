@@ -53,3 +53,6 @@ twanjobs68@gmail.com
 https://www.linkedin.com/in/twangrantse
 
 GitHub Link:https://github.com/twanjobs68/TGMusicApp
+
+***Updates - 02/20/2025
+Updated CSS files to make application responsive to android and other screen sizes
