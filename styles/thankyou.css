@@ -1,20 +1,20 @@
 /* all styling for elements starts at 0*/
-body{
+/* body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    /* background-image: radial-gradient(white,rgb(187, 146, 92),rgb(141, 82, 5),rgb(58, 23, 3)) ; */
+    /* background-image: radial-gradient(white,rgb(187, 146, 92),rgb(141, 82, 5),rgb(58, 23, 3)) ; 
     background-image: radial-gradient(circle, rgb(236, 236, 233), orange); 
   
-}
+} */
 
 
 
 /* Tg music vault heading container */
-.loginHeading{
+/* .loginHeading{
    
     border:5px dashed rgb(19, 18, 16);
     
@@ -97,4 +97,188 @@ width:5em;;
     
 .topPage:hover {
         background-color:rgb(150, 88, 13);
+    } */
+
+    /******UPDATING THANKYOU.CSS FOR RESPONSIVENESS****/
+
+    /* Responsive Login Heading */
+/* Reset and General Styles */
+body, h1, p, h3 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f5f5f5; /* Light background for visibility */
+    padding: 20px; /* Prevents elements from touching screen edges */
+}
+
+/* Login Heading */
+.loginHeading {
+    border: 5px dashed rgb(19, 18, 16);
+    background-color: rgb(182, 111, 31);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15em;
+    height: 2em;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0 auto 20px auto; /* Centers it horizontally */
+}
+
+/* Bars of Music Message */
+.barsOfMusic-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(12, 1, 1);
+    border-radius: 5px;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* More Music Section */
+.moreMusicNPic-container {
+    border: 8px ridge rgba(80, 38, 4, 0.836);
+    border-radius: 4px;
+    width: 90%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 20px auto;
+    align-items: center;
+    text-align: center;
+}
+
+/* Text Inside More Music Box */
+.moreMusicText {
+    border: 3px dotted rgb(59, 33, 3);
+    border-radius: 8px;
+    padding: 8px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.moreMusicText:hover {
+    background-color: burlywood;
+    color: chocolate;
+}
+
+/* Music Note Image */
+.musicNotePic {
+    padding: 10px;
+    margin: 10px auto;
+    border: 2px solid rgb(238, 226, 226);
+    border-radius: 5px;
+    background-color: rgb(226, 222, 222);
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+}
+
+/* Buttons */
+.logOff, .topPage {
+    background-color: bisque;
+    width: 6em;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px auto;
+}
+
+.logOff:hover, .topPage:hover {
+    background-color: rgb(150, 88, 13);
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .loginHeading {
+        font-size: 28px;
+        width: 12em;
     }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .barsOfMusic-message {
+        width: 95%;
+        font-size: 16px;
+    }
+
+    .moreMusicNPic-container {
+        max-width: 90%;
+        padding: 10px;
+    }
+
+    .moreMusicText {
+        font-size: 16px;
+    }
+
+    .musicNotePic {
+        max-width: 120px;
+    }
+
+    .logOff, .topPage {
+        width: 7em;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .loginHeading {
+        font-size: 22px;
+        width: 10em;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    .barsOfMusic-message {
+        max-width: 100%;
+        font-size: 14px;
+    }
+
+    .moreMusicNPic-container {
+        padding: 8px;
+    }
+
+    .moreMusicText {
+        font-size: 14px;
+    }
+
+    .musicNotePic {
+        max-width: 100px;
+    }
+
+    .logOff, .topPage {
+        width: 100%;
+        max-width: 8em;
+    }
+}
