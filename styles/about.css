@@ -1,4 +1,4 @@
-*{
+/*{
     margin: 0;
     padding:0;
     box-sizing:border-box;
@@ -12,10 +12,10 @@ body{
     background-attachment: fixed;
     height: 100vh;
     margin: 0;
-    padding: 20px; /*researched to give smaller screens padding per device  */
+    padding: 20px; /*researched to give smaller screens padding per device  *
 }
     
-#logNTitle{
+/* #logNTitle{
    
     border:5px dashed rgb(19, 18, 16);
     background-color: orange;
@@ -30,6 +30,88 @@ body{
     font-family: Georgia, 'Times New Roman', Times, serif;
     position: relative;
     left: 40em;;
+} */
+
+/***    update about css for responsiveness on alldevices*//
+/* General Reset */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
+/* Background Image Adjustments */
+body {
+    background-image: url("../images/grey-background-music-notes.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px; /* Adds spacing on smaller screens */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Login Title (Centered & Responsive) */
+#logNTitle {
+    border: 5px dashed rgb(19, 18, 16);
+    background-color: orange;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    width: 12em;
+    height: 2em;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    text-align: center;
+}
+
+/* Desktop Alignment */
+@media (min-width: 1024px) {
+    #logNTitle {
+        position: relative;
+        left: auto; /* Removes fixed left positioning */
+        margin: 0 auto; /* Ensures it stays centered */
+    }
+}
+
+/* Tablet & Small Screens */
+@media (max-width: 1024px) {
+    body {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    #logNTitle {
+        font-size: 18px;
+        width: 10em;
+        height: 2.2em;
+    }
+}
+
+/* Mobile Phones */
+@media (max-width: 768px) {
+    #logNTitle {
+        font-size: 16px;
+        width: 9em;
+        height: 2.5em;
+        padding: 5px;
+    }
+}
+
+/* Very Small Devices */
+@media (max-width: 480px) {
+    #logNTitle {
+        font-size: 14px;
+        width: 8em;
+        height: auto;
+        padding: 8px;
+    }
+}
 
