@@ -1,4 +1,4 @@
-/* Dropdown Button */
+/* Dropdown Button *
 .dropbtn {
     background-color: #04AA6D;
     color: white;
@@ -7,13 +7,13 @@
     border: none;
   }
   
-  /* The container <div> - needed to position the dropdown content */
+  /* The container <div> - needed to position the dropdown content *
   .genreDropdown-container1 {
     position: relative;
     display: inline-block;
   }
   
-  /* Dropdown Content (Hidden by Default) */
+  /* Dropdown Content (Hidden by Default) *
   .gendropdown-content {
     display: none;
     position: absolute;
@@ -23,7 +23,7 @@
     z-index: 1;
   }
   
-  /* Links inside the dropdown */
+  /* Links inside the dropdown *
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -31,11 +31,110 @@
     display: block;
   }
   
-  /* Change color of dropdown links on hover */
+  /* Change color of dropdown links on hover *
   .dropdown-content a:hover {background-color: #ddd;}
   
-  /* Show the dropdown menu on hover */
+  /* Show the dropdown menu on hover *
   .dropdown:hover .dropdown-content {display: block;}
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
+  /* Change the background color of the dropdown button when the dropdown content is shown *
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  /***UPDATE DROPDOWNMUSIC.CSS PAGES FOR RESPONSIVENESS***/
+  /* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+/* Dropdown Container */
+.genreDropdown-container1 {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 220px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.gendropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 100%;
+  max-width: 220px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Dropdown Links */
+.gendropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Hover Effect for Links */
+.gendropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show Dropdown on Hover (for desktops) */
+.genreDropdown-container1:hover .gendropdown-content {
+  display: block;
+}
+
+/* Dropdown Button Hover */
+.genreDropdown-container1:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/* Mobile-Friendly Dropdown (Tap to Open) */
+@media (max-width: 768px) {
+  .genreDropdown-container1 {
+      width: 90%;
+      max-width: 250px;
+  }
+
+  .dropbtn {
+      width: 100%;
+      font-size: 14px;
+      padding: 12px;
+  }
+
+  .gendropdown-content {
+      width: 100%;
+      max-width: 250px;
+      position: static;
+      display: block;
+      visibility: hidden;
+      opacity: 0;
+      transition: visibility 0s, opacity 0.3s ease-in-out;
+  }
+
+  /* Show Dropdown on Tap (for touchscreens) */
+  .genreDropdown-container1:focus-within .gendropdown-content {
+      visibility: visible;
+      opacity: 1;
+  }
+}
