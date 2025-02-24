@@ -275,10 +275,17 @@ button:hover {
         height: 4em;
     }
 
+    
+
     #aboutAppButton {
         font-size: 14px;
         height: 4em;
     }
+
+    /* Hover Effect for aboutAppButton*/
+    .aboutAppButton:hover {
+        background-color: rgb(80, 51, 19);
+    } 
 
     h1 {
         font-size: 24px;

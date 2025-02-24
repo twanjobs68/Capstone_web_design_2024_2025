@@ -32,9 +32,10 @@ body{
     left: 40em;;
 } */
 
-/***    update about css for responsiveness on alldevices*//
+/***    update about css for responsiveness on alldevices*/
+/
 /* General Reset */
-* { 
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -49,7 +50,8 @@ body {
     background-attachment: fixed;
     min-height: 100vh;
     margin: 0;
-    padding: 20px; /* Adds spacing on smaller screens */
+    padding: 20px;
+    /* Adds spacing on smaller screens */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +64,7 @@ body {
     background-color: orange;
     border-radius: 5px;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
     width: 12em;
     height: 2em;
@@ -73,19 +75,27 @@ body {
     text-align: center;
 }
 
+/*Hover for about button*/
+button:hover {
+    background-color: rgb(44, 32, 10);
+}
+
 /* Desktop Alignment */
 @media (min-width: 1024px) {
     #logNTitle {
         position: relative;
-        left: auto; /* Removes fixed left positioning */
-        margin: 0 auto; /* Ensures it stays centered */
+        left: auto;
+        /* Removes fixed left positioning */
+        margin: 0 auto;
+        /* Ensures it stays centered */
     }
 }
 
 /* Tablet & Small Screens */
 @media (max-width: 1024px) {
     body {
-        padding: 10px; /* Adjust padding for smaller screens */
+        padding: 10px;
+        /* Adjust padding for smaller screens */
     }
 
     #logNTitle {
@@ -94,6 +104,8 @@ body {
         height: 2.2em;
     }
 }
+
+
 
 /* Mobile Phones */
 @media (max-width: 768px) {
@@ -114,4 +126,3 @@ body {
         padding: 8px;
     }
 }
-

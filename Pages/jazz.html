@@ -122,161 +122,162 @@
     <!-- Updated with centering of heading, table elements and make more responsive -->
     <style>
         /* General Styling */
-        body {
-            background-color: rgb(219, 179, 48);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            min-height: 100vh;
-            /* Ensure full-page centering */
-            padding: 20px;
-        }
+body {
+    background-color: rgb(219, 179, 48);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    position: relative; /* Ensures absolute positioning of the image */
+}
 
-        /* Center Heading */
-        .tgHeading-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0 auto;
-            /* Centers horizontally */
-        }
+/* Center Heading */
+.tgHeading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+}
 
-        /* Caption */
-        caption {
-            border: 2px solid beige;
-            width: 100px;
-            background-color: rgb(218, 209, 88);
-            border-radius: 5px;
-            position: relative;
-            bottom: 15px;
-            margin: 0 auto;
-            /* Centers the caption */
-            text-align: center;
-        }
+/* Move Image to Top Right Corner */
+img {
+    border: 2px solid white;
+    border-radius: 8px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    max-width: 150px; /* Prevents oversized images */
+    height: auto;
+}
 
-        /* More Music Button */
-        .moreMusic {
-            border: 2px solid black;
-            width: 15rem;
-            height: 4rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 20px auto;
-            /* Centers the button */
-            border-radius: 8px;
-            background-color: bisque;
-            font-weight: bold;
-        }
+/* Caption */
+caption {
+    border: 2px solid beige;
+    width: 150px;
+    background-color: rgb(218, 209, 88);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 auto;
+    text-align: center;
+}
 
-        .moreMusic:hover {
-            background-color: rgb(192, 130, 36);
-        }
+/* More Music Button */
+.moreMusic {
+    border: 2px solid black;
+    width: 15rem;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    border-radius: 8px;
+    background-color: bisque;
+    font-weight: bold;
+}
 
-        /* Image Centering */
-        img {
-            border: 2px solid white;
-            border-radius: 8px;
-            display: block;
-            margin: 10px ;
-            /* Centers the image */
-        }
+.moreMusic:hover {
+    background-color: rgb(192, 130, 36);
+}
 
-        /* Table Container */
-        .musicTable-container {
-            border: 5px solid saddlebrown;
-            width: 90%;
-            max-width: 50em;
-            border-radius: 8px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 20px auto;
-            /* Centers the table */
-            padding: 20px;
-        }
+/* Table Container - Centered */
+.musicTable-container {
+    border: 5px solid saddlebrown;
+    width: 90%;
+    max-width: 50em;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+}
 
-        /* Table */
-        td {
-            padding: 20px;
-            border: 1px solid whitesmoke;
-        }
+/* Table */
+td {
+    padding: 20px;
+    border: 1px solid whitesmoke;
+}
 
-        /* Center h4 */
-        h4 {
-            text-align: center;
-            margin-top: 20px;
-        }
+/* Center h4 */
+h4 {
+    text-align: center;
+    margin-top: 20px;
+}
 
-        /* Form Centering */
-        form {
-            display: flex;
-            justify-content: center;
-            margin-top: 10px;
-        }
+/* Form Centering */
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
 
-        /* Input Field */
-        input {
-            background-color: rgb(66, 52, 6);
-            color: white;
-            padding: 8px;
-            border: none;
-            border-radius: 5px;
-        }
+/* Input Field */
+input {
+    background-color: rgb(66, 52, 6);
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
 
-        /* Log Off & Top Page Buttons */
-        .logOffNtop {
-            font-weight: 600;
-            margin-left: 10px;
-        }
+/* Log Off & Top Page Buttons */
+.logOff, .topPage {
+    background-color: bisque;
+    width: 5em;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    margin: 5px auto;
+    display: block;
+}
 
-        .logOff,
-        .topPage {
-            background-color: bisque;
-            width: 5em;
-            padding: 5px;
-            border: 2px solid black;
-            border-radius: 5px;
-            text-align: center;
-            cursor: pointer;
-        }
+.logOff:hover, .topPage:hover {
+    background-color: rgb(150, 88, 13);
+}
 
-        .logOff:hover,
-        .topPage:hover {
-            background-color: rgb(150, 88, 13);
-        }
+/* Responsive Design */
+@media (max-width: 768px) {
+    .musicTable-container {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
 
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .musicTable-container {
-                width: 100%;
-                height: auto;
-                padding: 10px;
-            }
+    .moreMusic {
+        width: 100%;
+        max-width: 250px;
+    }
 
-            .moreMusic {
-                width: 100%;
-                max-width: 250px;
-            }
-        }
+    img {
+        max-width: 120px; /* Reduce image size on smaller screens */
+        top: 5px;
+        right: 5px;
+    }
+}
 
-        @media (max-width: 480px) {
-            td {
-                padding: 10px;
-            }
+@media (max-width: 480px) {
+    td {
+        padding: 10px;
+    }
 
-            .moreMusic {
-                height: 3rem;
-            }
+    .moreMusic {
+        height: 3rem;
+    }
 
-            .logOff,
-            .topPage {
-                width: 100%;
-                max-width: 100px;
-            }
-        }
+    .logOff, .topPage {
+        width: 100%;
+        max-width: 100px;
+    }
 
+    img {
+        max-width: 100px; /* Further reduce image size for mobile */
+    }
+}
         /* <!--end Update--> */
     </style>
 </head>
