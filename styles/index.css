@@ -23,18 +23,30 @@ body {
     padding: 20px; /* Ensures padding on smaller screens */
 }
 
+
+/*Animation for login Page container 2 flash the 3 colors*/
+
+@keyframes flashBackground {
+    0% { background-color: rgb(90, 62, 10); } /* Brown */
+    50% { background-color: rgb(49, 38, 17); } /* Orange */
+    100% { background-color: rgb(90, 62, 10); } /* Brown */
+}
+
 /* Login Page Container */
 .loginbackContainer {
     width: 90%;
     max-width: 400px; /* Restricts size for larger screens */
     border-radius: 5px;
     display: flex;
-    background-color: white;
+    border-radius: 100px;
+    background-color: rgb(90, 62, 10);
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    animation: flashBackground 2s infinite alternate; /* Flashing effect */
 }
 
+/*****************************/
 /* Login Header */
 .loginHeading {
     border: 5px dashed rgb(19, 18, 16);
@@ -68,6 +80,12 @@ body {
     position: absolute;
     right: 10px;
     bottom: 10px;
+}
+ 
+
+/* Hover Effect for aboutAppButton*/
+#aboutAppButton:hover {
+    background-color: rgb(80, 51, 19);
 }
 
 /* Login Form Container */
@@ -142,16 +160,6 @@ button:hover {
     }
 
     
-
-    #aboutAppButton {
-        font-size: 14px;
-        height: 4em;
-    }
-
-    /* Hover Effect for aboutAppButton*/
-    #aboutAppButton:hover {
-        background-color: rgb(80, 51, 19);
-    } 
 
     h1 {
         font-size: 24px;

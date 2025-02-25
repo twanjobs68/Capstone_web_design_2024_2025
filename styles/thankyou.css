@@ -1,107 +1,5 @@
-/* all styling for elements starts at 0*/
-/* body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body{
-    /* background-image: radial-gradient(white,rgb(187, 146, 92),rgb(141, 82, 5),rgb(58, 23, 3)) ; 
-    background-image: radial-gradient(circle, rgb(236, 236, 233), orange); 
-  
-} */
-
-
-
-/* Tg music vault heading container */
-/* .loginHeading{
-   
-    border:5px dashed rgb(19, 18, 16);
-    
-    background-color: rgb(182, 111, 31);
-    border-radius: 5px;
-    display:flex;
-    width: 15em;
-    height: 2em;
-    justify-content: center;
-    align-items:center;
-    font-size: 45px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    position:relative;
-    left:15em;
-}
-
-
-.barsOfMusic-message{
-    display:flex;
-    justify-content:center;
-    border:2px solid rgb(12, 1, 1);
-    border-radius:5px;
-    width: 83.15em;
-    margin-left:18.5em;
-}
-
-
-h1{
-    margin-left:14.5em;;
-}
-
-
-
-.moreMusicNPic-container{
-    border: 8px ridge rgba(80, 38, 4, 0.836);
-    border-radius: 4px;
-    width: 30em;
-    display:flex;
-    padding: 10px;
-    margin:5px;
-    align-items:center;
-    position:relative;
-    left:45em;
-    
-}
-.moreMusicText{
-    
-    border: 3px dotted rgb(59, 33, 3);
-    border-radius:8px;
-}
-
-.musicNotePic{
-    padding:10px;
-    margin-left:5px;
-    border: 2px solid rgb(238, 226, 226);
-    border-radius: 5px;
-    background-color: rgb(226, 222, 222);;
-}
-
-.moreMusicText:hover{
-    background-color: burlywood;
-    color: chocolate;
-
-}
-
-.logOff{
-background-color:bisque;
-width:5em;;
-}
-
-.logOff:hover {
-    background-color:rgb(150, 88, 13);
-
-}
-
-.topPage{
-    background-color:bisque;
-    width:5em;;
-    }
-    
-.topPage:hover {
-        background-color:rgb(150, 88, 13);
-    } */
-
-    /******UPDATING THANKYOU.CSS FOR RESPONSIVENESS****/
-
-    /* Responsive Login Heading */
+/* all styling for elements start at 0*/
+/* Responsive Login Headins */
 /* Reset and General Styles */
 body, h1, p, h3 {
     margin: 0;
@@ -140,10 +38,11 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid rgb(12, 1, 1);
+    border: 4px solid rgb(12, 1, 1);
+    background-color: black;
     border-radius: 5px;
-    width: 90%;
-    max-width: 1200px;
+    width: 100%;
+    max-width: 82.0em;
     margin: 20px auto;
     padding: 10px;
     text-align: center;
@@ -173,6 +72,7 @@ h1 {
 /* Text Inside More Music Box */
 .moreMusicText {
     border: 3px dotted rgb(59, 33, 3);
+    background-color: rgb(161, 81, 23);
     border-radius: 8px;
     padding: 8px;
     width: 100%;
@@ -190,16 +90,17 @@ h1 {
     padding: 10px;
     margin: 10px auto;
     border: 2px solid rgb(238, 226, 226);
-    border-radius: 5px;
-    background-color: rgb(226, 222, 222);
+    border-radius: 8px;
+    background-color: rgba(218, 112, 13, 0.822);
     width: 100%;
-    max-width: 150px;
+    max-width: 13em;
+   
     height: auto;
 }
 
 /* Buttons */
 .logOff, .topPage {
-    background-color: bisque;
+    background-color: rgb(226, 147, 51);
     width: 6em;
     padding: 12px;
     text-align: center;
