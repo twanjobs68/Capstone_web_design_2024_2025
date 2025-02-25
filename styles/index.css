@@ -149,7 +149,7 @@ button:hover {
     }
 
     /* Hover Effect for aboutAppButton*/
-    .aboutAppButton:hover {
+    #aboutAppButton:hover {
         background-color: rgb(80, 51, 19);
     } 
 
